@@ -4,11 +4,21 @@
  *
  * :copyright: Copyright 2010 by Armin Ronacher.
  * :license: Flask Design License, see LICENSE for details.
+ * :modified: 2014 by Lucy Park <me@lucypark.kr>.
  */
 
 body {
     margin: 0;
-    padding: 20px 30px;
+    padding: 15px;
+}
+
+a.reference.image-reference {
+    border-bottom: none;
+    display: inline-block;
+}
+
+a.reference.image-reference:hover {
+    border-bottom: none;
 }
 
 div.documentwrapper {
@@ -67,6 +77,10 @@ div.bodywrapper {
 div.body {
     min-height: 0;
     padding: 0;
+}
+
+ul {
+    margin-left: 15px;
 }
 
 .rtd_doc_footer {
